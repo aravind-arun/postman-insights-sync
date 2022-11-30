@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "70ba1595-168d-4bea-960c-8734d2dbf486",
+		"name": "Annotation Event Worker Service Beta",
+		"description": "Schema Generated and maintained by API Observability service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "907238-70ba1595-168d-4bea-960c-8734d2dbf486"
+	},
+	"item": [
+		{
+			"name": "/event",
+			"id": "4310c4e7-cb61-4cdc-a410-8a22dbd94fa2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/event",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "07c070b2-45ab-4a67-8073-ad85ca20bee3",
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/event",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"event"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/knockknock",
+			"id": "347552bc-bb5b-4ed7-8fb8-2e52d9f5ad9f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/knockknock",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"knockknock"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "9defd4b2-1c8b-430b-bc3b-8d7de341bb92",
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/knockknock",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"knockknock"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"id": "c47c0cb3-586d-4a32-8bf3-62e8988cb835",
+					"name": "Internal Server Error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/knockknock",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"knockknock"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "nostrud consectetur pariatur nulla",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "b9443f97-9781-4608-8ea1-005dacc3ef2d",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}

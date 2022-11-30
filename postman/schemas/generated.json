@@ -1,0 +1,199 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Generated Schema",
+        "description": "Schema Generated and maintained by API Observability service",
+        "version": "1.0.0"
+    },
+    "servers": [],
+    "paths": {
+        "/event": {
+            "post": {
+                "parameters": [
+                    {
+                        "name": "host",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "contentLength",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "xForwardedFor",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "connection",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "contentType",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "xRealIp",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "userAgent",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "acceptEncoding",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "headers": {
+                            "contentLength": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            "eTag": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            "contentType": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/knockknock": {
+            "post": {
+                "parameters": [
+                    {
+                        "name": "host",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "contentLength",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "xForwardedFor",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "connection",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "contentType",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "xRealIp",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "userAgent",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "acceptEncoding",
+                        "in": "headers",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "headers": {
+                            "contentLength": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            "eTag": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            "contentType": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "description": "OK"
+                    },
+                    "500": {
+                        "headers": {
+                            "contentLength": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            "eTag": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            "contentType": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "description": "Internal Server Error"
+                    }
+                }
+            }
+        }
+    }
+}
